@@ -1,0 +1,111 @@
+Week 1
+
+
+Upon being assigned the project, I met with my group members after the lecture and we talked about an initial idea – that being a game that employs the mechanics of both Among Us and Keep Talking and Nobody Explodes, the premise of the game is that it would be a similarly cooperative experience for players where they are in a room and must complete puzzles to diffuse a bomb whilst another player is a saboteur who aims to allow the bomb to go off - the game would largely revolve around discussion and deception between players.
+
+
+
+We organised a meeting for another day and agreed that we would discuss job allocation as well as more ideas about the game.
+
+At our subsequent meeting, we developed our game idea by discussing more mechanics and design ideas, such as for it to be predominantly a mobile experience and therefore, should be graphically low-poly. My role in this meeting was to take notes as well as inputting ideas; by the end of the meeting I had created a document that summarised the ideas we discussed as well as our mutually agreed individual jobs for the concept presentation. We then agreed to undergo some research work pertaining to the roles we had been assigned, before we met again the next week.
+
+
+
+Week 1 (Cont.)
+
+
+During our next meeting, we discussed our initial idea and some of the potential game mechanic issues that inhibited coherent and emergent gameplay, one major flaw we realised about the concept was that one essential mechanic that facilitated a consistently engaging experience impeded the possibility of making a successfully marketable game - it required a lobby voice chat to be used by all players. This was problematic due to our aim for the game to possess a low age rating, yet permanent, compulsory voice chat would force more responsibilities on, and alienate some of the player base and could potentially be dangerous to younger players.
+
+
+
+We discussed ways around this issue but could not come to a mutual agreement, so we decided to produce another game concept.
+
+
+
+Eventually, we agreed on a space themed survival-horror game which we then discussed mechanics and features for. My role for this meeting was recording our conversations with a voice recorder, as well as contributing ideas.
+
+
+
+By the end of the meeting we had developed a fairly detailed game concept and then agreed to meet again next week.
+
+
+
+Over the weekend I compiled our conversation recordings into a document and made it available to the group, I also made a start on my research topic for the presentation.
+
+
+
+Week 2
+
+
+This week we had a brief meeting on Tuesday, mostly to discuss the presentation which would occur the next week. We talked about the topics each of us would be presenting, as well as the research we had completed up to that point. We agreed to have an online meeting on the Thursday on Discord where we’d show what we had completed.
+
+On that Thursday meeting we had a mock presentation with the slides we had developed individually, we then talked about the order in which the topics would be presented, and also the style our powerpoint would be. We critiqued each other’s research as well as suggested more information to include to improve the overall quality of research. We then talked about more suggestions about the game project, mostly about which international markets to target and what explicit content to include and therefore which age rating it should have. It was suggested that we should focus on all the major major global markets excluding China due to the heavy restrictions on game content they have, we also decided to have a gritty-gory style in order to be a more horror-fit game.
+
+
+
+Week 2 (Cont.)
+
+
+The work I focused on this week was more recording of group discussions, as well as graphical research for the group presentation. 
+
+During one of the meetings, we talked about creating some concept art to show in the presentation as well, Dylan said he would be happy to complete it, we thought a picture of a spaceman-zombie would represent our game as well as its themes suitably.
+
+Next week I am planning to finish my research and help to finalise the presentation, I also plan to rehearse it with my group. I am also thinking about potentially creating my own concept art in order to help broaden ideas and include variety in the presentation.
+
+Overall, the concept presentation should be completed this coming week, and we should be ready to present it confidently with well-researched ideas. The game idea itself has had its core mechanics thought out fairly thoroughly at this point and we look to develop these initial ideas in the coming weeks. We have agreed to have two more meetings in the next week, one on Tuesday and one on Thursday.
+
+
+
+Week 3
+
+
+This week my group and I met for a brief meeting on Tuesday to cover the final preparations we needed to make for the Concept Presentation - the aspects we needed to work on were to work out who was presenting for each part of the powerpoint and also som extra background information we could talk about that wasn’t in the final presentation but related to the topic which we were talking about. We had completed the first draft of the presentation at this point and we only needed to refine what we had and improve what we could with what we had already done. I had completed my research on the Graphical aspects of the game as well as the important role that immersion had for it - since it is intended to be a horror themed game it has to be believably immersive for the player to have the intended experience. At the end of this first meeting we decided to improve the presentation over the next few days and make sure we were ready to present our given topics in preparation for Thursdays presentation. We also agreed to have a rehearsal before the actual presentation so that we could be thoroughly cohesive in our delivery.
+
+
+
+Week 3 (Cont.)
+
+
+On the Thursday we met a couple of hours before the Concept Presentation and we talked about the improvements that we had made over the past few days, we also agreed on a Team Name during this meeting that we put at the start of the presentation. After this we had a quick rehearsal in which we timed ourselves to make sure we kept the presentation going for a good length but to also make sure it wasn’t too long either. We helped each other by suggesting ways we could improve our own delivery of our topics and also we made quick notes on extra things we could talk about. After this we went to deliver the presentation and we were happy with the results, afterwards we suggested to keep in touch over discord to keep developing our game idea and to also get started on our final Game Design Document. Over the next few weeks we intend to meet at the regular times in person and over discord in order to make sure we deliver a good final document.
+
+
+
+Week 4
+
+
+This week we didn’t hold any meetings due to some of us being away during reading week, we only sent a few messages to each other at this time. I personally have been focusing on other work, but have been thinking about more ideas to discuss with the group, for example, I think it would be a good idea to have a dynamic soundtrack that adapts to the situation or environment the player is in - one way I think this can be done is to create a long singular music track that spans many themes and then label the different parts of the tracks corresponding to what type of situation they would be suitable to use within the game, so when needed the appropriate music can play according to whatever situation is occurring. When this is functional some transitional techniques can be used to blend the music together such as fades or extra transitional tracks. Next week we should be meeting as usual on the Tuesday and Thursday after the lectures, we plan to begin to discuss making a first draft for the Game Design Document.
+
+
+
+Week 5
+
+
+Having completed the Concept Presentation, we decided to completely shift our focus towards the Game Design Document. We thought it would be a good idea to complete sections of the Game Design Document that were related to our areas of research during the Concept Presentation, in that way we could complete our work to a higher level and more efficiently. James and Dylan began talking about how the game progression system was going to work, Dylan suggested a ‘game-chunk’ system to represent the levels of progression within the game. Each chunk would be allocated one of three scales, small, moderate and large: these scales will represent the length of each phase of the game. While James and Dylan were discussing this, Sam and I talked mainly about the in-game camera system, we agreed that we wanted a dynamic camera that responded to in-game events and could perform gameplay techniques such as rumbling and changing filters. For next week we intend to work on the four main aspects of the Game Design Document, that being story, marketing, gameplay and platform, we would research and come up ideas for these topics and present them during the next meeting.
+
+
+
+Week 6
+
+
+We held a meeting after our Thursday lecture and talked about what ideas and research we did over the week. We briefly discussed a general layout for the Game Design Document and where our research would fit, I took notes during this time for things that we agreed to do. Our main discussion this week consisted of ideas to prevent repetitiveness for the zombies within our game. One major idea that came out of this was the concept of having department-specialised zombies, this would mean that each zombie before they we infected had a specialised job onboard the spaceship, and so, when they became infected they inherited these unique abilities relating to their occupation - these abilities could include higher health, resistance to damage, variance in speed or attacks etc. We believe that by using this department this gives the player a varied experience so that they could strategise their gameplay. Next week we plan to begin the initial layout of the Game Design Document, so this would include headers and titles, as well as the basic information that we discussed over the meetings.
+
+
+
+Week 7
+
+
+This week we held a quick meeting on Thursday evening over discord to talk about general topics about the project such as our strategy for working on the Game Design Document - in this area we agreed that we should create a template document with headers, and then assign each group member with some headers so that they can complete the relevant sections and also to even out the workload, Dylan offered to create this template document over the next week. We also agreed to meet regularly so we can keep up with each others work and to also help each other if problems arise, we plan to start the first draft within the next couple of weeks. We also talked about different roles we might take when developing the document, these roles would be to research certain necessary areas for it such as competitor titles, demographics etc. we are thinking of writing our own pieces of work to then present it to the rest of the group to peer review to make the whole document logically coherent, next week we plan to have an initial document created with at least basic information on it.
+
+
+
+Week 8
+
+
+This week we met after the Thursday lecture online over discord, and we discussed what we needed to start work on for our Game Design Document. We created an initial collaborative document online so that we could all edit it whenever we needed to. Dylan then added the headings that he came up with to the online document and then talked us through each section, we agreed that we would evenly distribute jobs between us and each job would correspond to a number of headers. Afterwards, we shared our thoughts on the minutes document and we plan to upload it to discord so that we can all critique and edit it when we feel it is needed. Over the next week we plan to hold multiple meeting where we discuss our jobs for the Game Design Document as well as the initial research that we need to do. We aim to have each heading on the document to be filled with at least a small amount of information by the end of next week. Our meetings will be after the lectures on Tuesday and Thursday - likely to be online via discord.
+
+
+
+Week 9
+
+
+This week we finished the lecture content so we discussed work online instead of in person. We mostly discussed what roles we would all feel comfortable completing for the Game Design Document, Dylan and James said they'd both complete the minutes together. I agreed to work on the audio and video section of the Game Design Document to start with, after which I'd complete any extra tasks that needs doing. Dylan has been working on the Player Objectives section, Sam has said he'd work on the Marketing section and James said he'd look into doing the Game Structure, Environment and Narrative sections. We expect to have all the necessary information in the Game Design Document by Monday, we will then meet on discord to make sure we are all happy with the content in it, we will also format the document so that it is well presented. Once this is all finished the Game Design Document will be ready for submission. Since this is the final assignment for the module we have no further plans to have meetings about any work.

@@ -1,0 +1,2100 @@
+"""
+SPACE CONTAGION
+
+You are aboard a space station in orbit around Saturn...
+A viral alien microorganism was detected on an asteroid sample
+Very quickly many crew members became infected...
+None of whom survived...
+
+All crew members who were clean were ordered into cryosleep...
+This was many years ago...
+
+...
+
+#Cryochamber 1#
+initiate=<awaken_protocol>...
+<approved>
+standby...
+task=<open_cryo_doors>=initiated
+"""
+
+# BITSY VERSION 7.2
+
+! ROOM_FORMAT 1
+
+PAL 0
+NAME blueprint
+180,191,191
+101,102,107
+253,25,4
+193,148,108
+160,110,10
+159,116,178
+250,27,3
+49,150,250
+0,0,0
+250,27,3
+49,150,250
+250,250,250
+
+ROOM 0
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,1o,1o,1o,1o,1o,1o,1o,1o,1o,d,e,f,g,1o,u
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,0,0,a,0,0,0,a,0,0,0,a,0,0,0,u
+11,z,10,k,10,y,z,j,z,10,z,k,y,z,10,18
+b,15,15,k,15,15,15,j,15,15,15,k,15,15,15,u
+b,15,15,0,15,15,15,0,15,15,15,0,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,17
+b,0,16,16,16,16,16,16,16,0,0,0,0,0,0,u
+b,0,l,m,m,m,m,m,n,0,0,0,0,0,0,u
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Cryobay 1
+EXT 15,12 1 0,11 FX tunnel DLG 6
+EXT 6,3 3 6,3 DLG k
+PAL 0
+
+ROOM 1
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,14,14,1a,1c,1a,1a,1c,1a,1a,1c,1a,1a,14,14,u
+b,14,14,1a,1a,1b,1h,1d,1f,1j,1a,1l,1a,14,14,u
+b,14,14,1c,1c,1b,1i,1e,1g,1k,1a,1c,1b,14,14,u
+b,14,14,1a,1b,1b,1b,1b,1b,1b,1b,1b,1b,14,14,u
+b,14,14,1c,1a,1c,1a,1a,1c,1a,1a,1c,1a,14,14,u
+b,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,u
+b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+19,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,17
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Observation Deck
+ITM 2 13,11
+EXT 15,14 2 0,12 DLG m
+PAL 0
+
+ROOM 2
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,14,14,14,14,14,14,14,14,14,d,e,f,1m,14,u
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,0,0,a,0,0,0,a,0,0,0,a,0,0,0,u
+11,z,10,k,10,y,z,j,z,10,z,k,y,z,10,18
+b,15,15,k,15,15,15,j,15,15,15,k,15,15,15,u
+b,15,15,0,15,15,15,0,15,15,15,0,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+19,15,15,15,15,15,15,15,15,15,15,15,15,15,15,17
+b,0,16,16,16,16,16,16,16,0,0,0,0,0,0,u
+b,0,l,m,m,m,m,m,n,0,0,0,0,0,0,u
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Cryobay 2
+EXT 15,12 4 0,11 FX tunnel DLG n
+EXT 6,3 5 6,3 DLG o
+PAL 0
+
+ROOM 3
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,1o,1o,1o,1o,1o,1o,1o,1o,1o,d,e,f,g,1o,u
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,0,0,a,0,0,0,a,0,0,0,a,0,0,0,u
+11,z,10,k,10,y,z,k,z,10,z,k,y,z,10,18
+b,15,15,k,15,15,15,k,15,15,15,k,15,15,15,u
+b,15,15,0,15,15,15,0,15,15,15,0,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,17
+b,0,16,16,16,16,16,16,16,0,0,0,0,0,0,u
+b,0,l,m,m,m,m,m,n,0,0,0,0,0,0,u
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Cryochamber 1.5
+ITM 1 9,6
+EXT 15,12 1 0,11 FX tunnel DLG 6
+PAL 0
+
+ROOM 4
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,u
+b,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,1o,u
+b,1o,1o,1o,1o,1s,1t,1u,1v,1w,1x,1o,1o,1o,1o,u
+b,1o,1o,1o,1o,0,1p,1q,1q,1r,0,1o,1o,1o,1o,u
+b,1o,1o,1o,1o,1o,1y,1y,19,1z,1o,1o,1o,1o,1o,u
+b,1o,1o,1o,1o,1o,1y,0,0,1z,1o,1o,1o,1o,1o,u
+b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+19,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Escape Pod
+END t 8,5
+PAL 0
+
+ROOM 5
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,14,14,14,14,14,14,14,14,14,d,e,f,1m,14,u
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,0,0,a,0,0,0,a,0,0,0,a,0,0,0,u
+11,z,10,k,10,y,z,k,z,10,z,k,y,z,10,18
+b,15,15,k,15,15,15,k,15,15,15,k,15,15,15,u
+b,15,15,0,15,15,15,0,15,15,15,0,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+19,15,15,15,15,15,15,15,15,15,15,15,15,15,15,17
+b,0,16,16,16,16,16,16,16,0,0,0,0,0,0,u
+b,0,l,m,m,m,m,m,n,0,0,0,0,0,0,u
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Cryobay 2.5
+EXT 15,12 4 0,11 FX tunnel DLG n
+EXT 8,7 6 8,7 DLG r
+PAL 0
+
+ROOM 6
+w,x,x,x,x,x,x,x,x,x,x,x,x,x,x,v
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,14,14,14,14,14,14,14,14,14,d,e,f,1m,14,u
+b,14,14,14,14,14,14,14,14,14,14,14,14,14,14,u
+b,0,0,a,0,0,0,a,0,0,0,a,0,0,0,u
+11,z,10,k,10,y,z,k,z,10,z,k,y,z,10,18
+b,15,15,k,15,15,15,k,15,15,15,k,15,15,15,u
+b,15,15,0,15,15,15,0,15,15,15,0,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+b,15,15,15,15,15,15,15,15,15,15,15,15,15,15,u
+19,15,15,15,15,15,15,15,15,15,15,15,15,15,15,17
+b,0,16,16,16,16,16,16,16,0,0,0,0,0,0,u
+b,0,l,m,m,m,m,m,n,0,0,0,0,0,0,u
+s,a,a,a,a,a,a,a,a,a,a,a,a,a,a,t
+NAME Cryobay 2.75
+ITM 4 9,6
+EXT 15,12 4 0,11 FX tunnel DLG n
+PAL 0
+
+TIL 10
+00000000
+00000001
+00000001
+00000010
+00011010
+01101010
+11000100
+00000000
+NAME Cables 3
+
+TIL 11
+11000000
+11000000
+11100000
+11100001
+11010010
+11010100
+11001000
+11000000
+NAME Wall cable 1
+
+TIL 12
+00001000
+00001000
+00010000
+00010000
+00110000
+00100000
+11000000
+00000000
+NAME Cable up 1
+
+TIL 13
+11111111
+11111111
+00000111
+00000100
+00000100
+00000100
+00001000
+00001000
+NAME Cable up 2
+
+TIL 14
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Side Wall
+
+TIL 15
+00000000
+00000000
+11111111
+00000000
+00000000
+11111111
+00000000
+00000000
+NAME Floor
+
+TIL 16
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+NAME Desk 4
+COL 4
+
+TIL 17
+00001111
+00001111
+00001010
+00001111
+00001111
+00001010
+00001111
+00001111
+>
+00001111
+00001101
+00001111
+00001111
+00001111
+00001101
+00001111
+00001111
+NAME Door 1
+COL 7
+
+TIL 18
+10000011
+01000011
+00100011
+00100011
+00010011
+00010111
+00001011
+00000011
+NAME cable wall 3
+
+TIL 19
+11110000
+11110000
+01010000
+11110000
+11110000
+01010000
+11110000
+11110000
+NAME Door 2
+COL 7
+
+TIL a
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+NAME Wall
+WAL true
+
+TIL b
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME Wall 1
+WAL true
+
+TIL d
+00000000
+01101110
+10001010
+10001010
+10001100
+01101010
+00000000
+11111111
+NAME CR
+WAL true
+COL 6
+
+TIL e
+00000000
+10101110
+10101010
+11101010
+00101010
+11001110
+00000000
+11111111
+NAME YO
+WAL true
+COL 6
+
+TIL f
+00000000
+11001110
+10101010
+11001110
+10101010
+11001010
+00000000
+11111111
+NAME BA
+WAL true
+COL 6
+
+TIL g
+00000000
+10100100
+10101100
+11100100
+00100100
+11001110
+00000000
+11111111
+NAME Y
+WAL true
+COL 6
+
+TIL h
+00000010
+00000010
+00000010
+00000010
+00000010
+00000010
+00000010
+00000011
+NAME Border 1
+WAL true
+COL 6
+
+TIL i
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME k
+COL 6
+
+TIL j
+11111111
+10111101
+10111101
+10111101
+10111101
+10111101
+10111101
+11111111
+NAME Pod
+WAL true
+
+TIL k
+11000011
+11000011
+11000011
+11000011
+11000011
+11000011
+11000011
+11000011
+NAME Pod Open
+WAL true
+
+TIL l
+11111111
+11111111
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME Desk
+WAL true
+COL 4
+
+TIL m
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Desk 2
+WAL true
+COL 4
+
+TIL n
+11111111
+11111111
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME Desk 3
+WAL true
+COL 4
+
+TIL o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000011
+NAME Corner
+COL 6
+
+TIL p
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+NAME Corner 1
+COL 6
+
+TIL q
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+NAME Border Top
+COL 6
+
+TIL r
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+TIL s
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11111111
+11111111
+NAME Corner Wall 1
+WAL true
+
+TIL t
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+11111111
+11111111
+NAME Corner wall 2
+WAL true
+
+TIL u
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME Wall vertical 2
+WAL true
+
+TIL v
+11111111
+11111111
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME Corner wall 3
+WAL true
+
+TIL w
+11111111
+11111111
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME Corner wall 4
+WAL true
+
+TIL x
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Wall Top
+WAL true
+
+TIL y
+10000000
+01000000
+00100000
+00100001
+00010010
+00010100
+00001000
+00000000
+NAME Cables 1
+
+TIL z
+00000000
+01000000
+10100000
+10100000
+00100000
+00100000
+00101111
+00010000
+NAME Cables 2
+
+TIL 1a
+11111111
+11111111
+11101111
+11111110
+10111111
+11111111
+11110111
+11111111
+NAME Stars 1
+
+TIL 1b
+11111111
+11101111
+11111111
+11111111
+11111111
+11111111
+11011101
+11111111
+NAME Stars 2
+
+TIL 1c
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Space
+
+TIL 1d
+11110000
+11000000
+10000000
+10000000
+10000000
+10000000
+00000000
+00000000
+NAME Saturn L1
+
+TIL 1e
+01111111
+00000000
+10000000
+10000000
+10000000
+10000000
+11000000
+11100000
+NAME Saturn L2
+
+TIL 1f
+00000111
+00000011
+00000001
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Saturn R1
+
+TIL 1g
+11111111
+00000000
+00000000
+00000000
+00000000
+00000001
+00000001
+00000111
+NAME Saturn R2
+
+TIL 1h
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11100000
+11001111
+NAME Ring L1
+
+TIL 1i
+11100000
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Ring L2
+
+TIL 1j
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+00000111
+11110011
+NAME Ring R1
+
+TIL 1k
+00000011
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Ring R2
+
+TIL 1l
+11000011
+10000001
+00001000
+00000000
+00100000
+00000100
+10000001
+11000011
+NAME Titan
+
+TIL 1m
+00000000
+10101100
+10100010
+11100100
+00101000
+11001110
+00000000
+11111111
+NAME Y 2
+WAL true
+COL 6
+
+TIL 1n
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Invis Wall
+WAL true
+
+TIL 1o
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME side wall solid
+WAL true
+
+TIL 1p
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+NAME Escape Pod 1
+WAL true
+
+TIL 1q
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Escape Pod 2
+WAL true
+
+TIL 1r
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME Escape Pod 3
+WAL true
+
+TIL 1s
+00000000
+00000000
+11100110
+10001000
+11001100
+10000010
+11101100
+00000000
+NAME ES
+
+TIL 1t
+00000000
+00000000
+11101110
+10001010
+10001110
+10001010
+11101010
+00000000
+NAME CA
+
+TIL 1u
+00000000
+00000000
+11110111
+10010100
+11110110
+10000100
+10000111
+00000000
+NAME PE
+
+TIL 1v
+00000000
+00000000
+00011110
+00010010
+00011110
+00010000
+00010000
+00000000
+NAME PO
+
+TIL 1w
+00000000
+00000000
+11101100
+10101010
+10101010
+10101010
+11101100
+00000000
+NAME OD
+
+TIL 1x
+00000000
+00000000
+00100000
+01100000
+00100000
+00100000
+01110000
+00000000
+NAME 1
+
+TIL 1y
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+NAME escape pod transparent
+WAL false
+
+TIL 1z
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME escape pod traen
+WAL false
+
+SPR 10
+11111111
+11110001
+10010111
+10110001
+10110101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 6.5
+DLG d
+POS 5 11,7
+COL 7
+
+SPR 11
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 4.5
+DLG h
+POS 5 3,3
+
+SPR 12
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 5.5
+DLG h
+POS 5 7,3
+
+SPR 13
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 6.5
+DLG h
+POS 5 11,3
+
+SPR 14
+00111100
+00100100
+00100100
+00111100
+01101110
+10111101
+00100100
+00100100
+>
+00111100
+00100100
+00100100
+00111100
+01111110
+10111101
+00100100
+00100100
+NAME Samuel 1
+POS 5 8,6
+
+SPR 15
+00111100
+00100100
+00100100
+00111100
+01101110
+10111101
+00100100
+00100100
+>
+00111100
+00100100
+00100100
+00111100
+01111110
+10111101
+00100100
+00100100
+NAME Samuel 1.5
+POS 6 8,6
+
+SPR 16
+11111111
+11110111
+10010111
+10110111
+10110101
+10010000
+11111101
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 4.75
+DLG a
+POS 6 3,7
+COL 7
+
+SPR 17
+11111111
+11110001
+10010111
+10110001
+10111101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 5.75
+DLG p
+POS 6 7,7
+COL 7
+
+SPR 18
+11111111
+11110001
+10010111
+10110001
+10110101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 6.75
+DLG d
+POS 6 11,7
+COL 7
+
+SPR 19
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 4.75
+DLG h
+POS 6 3,3
+
+SPR A
+00111100
+00100100
+00100100
+00111100
+01111110
+10111101
+00100100
+00100100
+>
+00111100
+00100100
+00100100
+00111100
+01101110
+10111101
+00100100
+00100100
+POS 0 2,6
+COL 8
+
+SPR b
+11111111
+11111111
+11100111
+11100111
+11100111
+11111111
+11100111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Computer Screen
+DLG 7
+POS 1 15,9
+
+SPR c
+11111111
+11111011
+10010011
+10111011
+10111011
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 1
+DLG 4
+POS 0 3,7
+COL 7
+
+SPR d
+11111111
+11110011
+10011101
+10111011
+10110111
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 2
+DLG 3
+POS 0 7,7
+COL 7
+
+SPR e
+11111111
+11110001
+10011101
+10111001
+10111101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 3
+DLG 5
+POS 0 11,7
+COL 7
+
+SPR g
+00001111
+00001000
+00001011
+00001010
+00001011
+00001000
+00001000
+00001111
+NAME Door 1
+COL 8
+
+SPR h
+11111111
+11110111
+10010111
+10110111
+10110101
+10010000
+11111101
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryopod 4
+DLG a
+POS 2 3,7
+COL 7
+
+SPR i
+11111111
+11110001
+10010111
+10110001
+10111101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 5
+DLG c
+POS 2 7,7
+COL 7
+
+SPR j
+11111111
+11110001
+10010111
+10110001
+10110101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 6
+DLG d
+POS 2 11,7
+COL 7
+
+SPR k
+00000000
+01100000
+10010100
+10010101
+10011110
+01100101
+00001000
+00000000
+NAME Bones
+DLG 8
+POS 3 8,6
+COL 11
+
+SPR l
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 5
+POS 2 7,3
+
+SPR m
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 6
+DLG h
+POS 2 11,3
+
+SPR n
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 4
+DLG g
+POS 2 3,3
+
+SPR o
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 1
+DLG e
+POS 0 3,3
+
+SPR p
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 2
+POS 0 7,3
+
+SPR q
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 3
+DLG f
+POS 0 11,3
+
+SPR r
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 2.5
+DLG j
+POS 3 7,3
+
+SPR s
+11111111
+11111011
+10010011
+10111011
+10111011
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 1.5
+DLG 4
+POS 3 3,7
+COL 7
+
+SPR t
+11111111
+11110011
+10011101
+10111011
+10110111
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 2.5
+DLG l
+POS 3 7,7
+COL 7
+
+SPR u
+11111111
+11110001
+10011101
+10111001
+10111101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 3.5
+DLG 5
+POS 3 11,7
+COL 7
+
+SPR v
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 1.5
+DLG e
+POS 3 3,3
+
+SPR w
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 3.5
+DLG j
+POS 3 11,3
+
+SPR x
+00000000
+01100000
+10010100
+10010101
+10011110
+01100101
+00001000
+00000000
+NAME Bones1
+DLG 8
+POS 1 12,11
+COL 11
+
+SPR y
+11111111
+11110111
+10010111
+10110111
+10110101
+10010000
+11111101
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 4.5
+DLG a
+POS 5 3,7
+COL 7
+
+SPR z
+11111111
+11110001
+10010111
+10110001
+10111101
+10010001
+11111111
+11111111
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Cryochamber 5.5
+DLG p
+POS 5 7,7
+COL 7
+
+SPR 1a
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 5.75
+DLG h
+POS 6 7,3
+
+SPR 1b
+00000000
+01111110
+01111110
+01000010
+01111110
+01111110
+00000000
+00000000
+NAME CryoStop 6.75
+DLG h
+POS 6 11,3
+
+SPR 1c
+00111100
+00100100
+00100100
+00111100
+01101110
+10111101
+00100100
+00100100
+>
+00111100
+00100100
+00100100
+00111100
+01111110
+10111101
+00100100
+00100100
+NAME Samuel 2
+DLG u
+POS 4 5,7
+
+ITM 1
+00000000
+00000000
+00000000
+00000000
+11111111
+10111101
+10111011
+11111111
+NAME Keycard
+DLG 2
+COL 8
+
+ITM 2
+00000000
+00000000
+00000000
+00000000
+11111111
+10111101
+10111011
+11111111
+NAME Keycard1
+DLG 9
+COL 8
+
+ITM 3
+00000000
+00000000
+00000000
+00000000
+11111111
+10111101
+10111011
+11111111
+NAME kekard
+DLG 2
+COL 8
+
+ITM 4
+00000000
+00000000
+00000000
+00000000
+11111111
+10111101
+10111011
+11111111
+NAME Keycard2
+DLG s
+COL 8
+
+DLG 2
+"""
+[Saturnian Space Station]
+Crew Keycard
+Name: Graham Stewart {printSprite "A"}
+Date of Birth: 15/03/2491
+Date of Enlistment: 23/09/2512
+Occupation: Biologist
+Blood Type: A+
+Clearance: Lvl.2
+Personal ID: 23915
+{item "0" {{item "0"} + 1}}
+{property locked false}
+"""
+NAME keycard dialog
+
+DLG 3
+"""
+*Cryochamber 2 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Graham Stewart{clr2}
+#Cryochamber is in use:
+{clr2}True{clr2}
+#Occupant Vitals: 
+{clr2}scanning...{clr2}
+{clr2}...No Vitals Detected...{clr2}
+...
+#Diagnostic Results: {clr2}...
+2 Faults Detected...{clr2}
+<display.Fault_1.ID>
+=cryo_seal_failure
+[caution]
+<containment_breach>
+<display.Fault_2.ID>
+=cryo_auto_unlock_failed
+[suggestion]=
+<manual_unlock>
+*end*
+"""
+NAME Cryochamber 2 dialogue
+
+DLG 4
+"""
+*Cryochamber 1 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}You occupy this Cryochamber{clr2}
+#Cryochamber is in use:
+{clr2}False{clr2}
+#Occupant Vitals: 
+{clr2}N/A{clr2}
+#Diagnostic Results: {clr2}...
+No Faults Detected{clr2}
+*end*
+
+"""
+NAME Cryochamber 1 dialogue
+
+DLG 5
+"""
+*Cryochamber 3 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Stephen Lambert{clr2}
+#Cryochamber is in use:
+{clr2}False{clr2}
+#Occupant Vitals: 
+{clr2}N/A{clr2}
+#Diagnostic Results: {clr2}...
+No Faults Detected{clr2}
+*end*
+
+"""
+NAME Cryochamber 3 dialogue
+
+DLG 6
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    *Door Control Panel*
+    reading.keycard...
+    ...Lvl.2.keycard...<authorised>
+    <access_granted>
+  - else ?
+    {property locked true}
+    *Door Control Panel*
+    <access_denied>
+    {clr3}{printSprite "b"}{clr3}<lvl_1_clearance_required>{clr3}{printSprite "b"}{clr3}
+}
+"""
+NAME locked exit 1
+
+DLG 7
+"""
+{clr3}ATTENTION!{clr3}
+
+URGENT MESSAGE <by=capt_s.lambert>
+<start_message>
+...
+To anyone who is still alive...
+This is Captain Lambert
+I was the first to wake...
+The virus is not gone...yet
+I am about to initiate Action 8
+The sterilisation of the SSS...
+This will release a chemical
+that should neutralise it
+But this also means that all who are exposed to it will die
+Those of you in Cryopods may survive but I cannot guarantee.
+Since we have been asleep the SSS has lost stable orbit
+so it is out of our control and it will crash into Saturn
+It will crash in about 15 years
+and there is only one escape
+I have set the Cryopods to open when the station is above Titan
+This will be 10 years from now...
+The escape pods should allow those who survive to escape
+The colonists on Titan should be able to find you
+It has been the honour of my life serving with you all...
+<end message>
+"""
+NAME Computer Screen
+
+DLG 8
+A Pile of Bones...
+NAME Bones dialogue
+
+DLG 9
+"""
+[Saturnian Space Station]
+Crew Keycard
+Name: Stephen Lambert {printSprite "A"}
+Date of Birth: 02/06/2473
+Date of Enlistment: 13/11/2499
+Occupation: Captain
+Blood Type: A-
+Clearance: Lvl.4
+Personal ID: 21134
+
+"""
+NAME keycard1 dialogue
+
+DLG a
+"""
+*Cryochamber 4 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Derek Lombard{clr2}
+#Cryochamber is in use:
+{clr2}False{clr2}
+#Occupant Vitals: 
+{clr2}N/A{clr2}
+#Diagnostic Results: {clr2}...
+No Faults Detected{clr2}
+*end*
+
+"""
+NAME Cryochamber 4 dialogue
+
+DLG c
+"""
+*Cryochamber 2 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Samuel Jameson{clr2}
+#Cryochamber is in use:
+{clr2}True{clr2}
+#Occupant Vitals: 
+{clr2}scanning...{clr2}
+{clr2}...Vitals Detected...
+heart_rate=11BPM.condition_stable{clr2}
+#Diagnostic Results: {clr2}...
+1 Fault Detected...{clr2}
+<display.Fault.ID>
+=cryo_auto_unlock_failed
+[suggestion]=
+<manual_unlock>
+*end*
+
+"""
+NAME Cryochamber 5 dialogue
+
+DLG d
+"""
+*Cryochamber 4 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Sally Smith{clr2}
+#Cryochamber is in use:
+{clr2}False{clr2}
+#Occupant Vitals: 
+{clr2}N/A{clr2}
+#Diagnostic Results: {clr2}...
+No Faults Detected{clr2}
+*end*
+
+"""
+NAME Cryochamber 6 dialogue
+
+DLG e
+"""
+*stop_cryo_chamber_sequence*
+...
+...{clr3}{printSprite "b"}{clr3}<fatal.error>{clr3}{printSprite "b"}{clr3}
+<error.ID>=cryo.chamber=open
+"""
+NAME CryoStop 1 dialogue
+
+DLG f
+"""
+*stop_cryo_chamber_sequence*
+...
+...{clr3}{printSprite "b"}{clr3}<fatal.error>{clr3}{printSprite "b"}{clr3}
+<error.ID>=cryo.chamber=open
+"""
+NAME CryoStop 3 dialogue
+
+DLG g
+"""
+*stop_cryo_chamber_sequence*
+...
+...{clr3}{printSprite "b"}{clr3}<fatal.error>{clr3}{printSprite "b"}{clr3}
+<error.ID>=cryo.chamber=open
+"""
+NAME CryoStop 4 dialogue
+
+DLG h
+"""
+*stop_cryo_chamber_sequence*
+...
+...{clr3}{printSprite "b"}{clr3}<fatal.error>{clr3}{printSprite "b"}{clr3}
+<error.ID>=cryo.chamber=open
+"""
+NAME CryoStop 6 dialogue
+
+DLG i
+"""
+*stop_cryo_chamber_sequence*
+...
+<sequence_approved>
+...
+#Cryochamber 2#
+initiate=<awaken_protocol>...
+<approved>
+standby...
+task=<open_cryo_doors>=initiated
+"""
+NAME CryoStop 2 dialogue
+
+DLG j
+"""
+*stop_cryo_chamber_sequence*
+...
+...{clr3}{printSprite "b"}{clr3}<fatal.error>{clr3}{printSprite "b"}{clr3}
+<error.ID>=cryo.chamber=open
+"""
+NAME CryoStop 2.5 dialogue
+
+DLG k
+"""
+*stop_cryo_chamber_sequence*
+...
+<sequence_approved>
+...
+#Cryochamber 2#
+initiate=<awaken_protocol>...
+<approved>
+standby...
+task=<open_cryo_doors>=initiated
+"""
+NAME exit narration 1
+
+DLG l
+"""
+*Cryochamber 2 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Graham Stewart{clr2}
+#Cryochamber is in use:
+{clr2}False{clr2}
+#Occupant Vitals: 
+{clr2}N/A{clr2}
+#Diagnostic Results: {clr2}...
+2 Faults Detected...{clr2}
+<display.Fault_1.ID>
+=cryo_seal_failure
+[caution]
+<containment_breach>
+<display.Fault_2.ID>
+=cryo_auto_unlock_failed
+[suggestion]=
+<manual_unlock>
+*end*
+
+"""
+NAME Cryochamber 2.5 dialogue
+
+DLG m
+"""
+{
+  - {item "2"} >= 1 ?
+    {property locked false}
+    *Door Control Panel*
+    reading.keycard...
+    ...Lvl.4.keycard...<authorised>
+    <access_granted>
+  - else ?
+    {property locked true}
+    *Door Control Panel*
+    <access_denied>
+    {clr3}{printSprite "b"}{clr3}<lvl_4_clearance_required>{clr3}{printSprite "b"}{clr3}
+}
+"""
+NAME locked exit 2
+
+DLG n
+"""
+{
+  - {item "4"} >= 1 ?
+    {property locked false}
+    *Door Control Panel*
+    reading.keycard...
+    ...Lvl.3.keycard...
+    maintenance.clearance...
+    <authorised>
+    <access_granted>
+  - else ?
+    {property locked true}
+    *Door Control Panel*
+    <access_denied>
+    {clr3}{printSprite "b"}{clr3}<maintenance_clearance_required>{clr3}{printSprite "b"}{clr3}
+}
+"""
+NAME locked exit 3
+
+DLG o
+"""
+*stop_cryo_chamber_sequence*
+...
+<sequence_approved>
+...
+#Cryochamber 5#
+initiate=<awaken_protocol>...
+<approved>
+standby...
+task=<open_cryo_doors>=initiated
+"""
+NAME exit narration 2
+
+DLG p
+"""
+*Cryochamber 5 Data Available*
+<Proceed>?
+#Occupant:
+{clr2}Samuel Jameson{clr2}
+#Cryochamber is in use:
+{clr2}False{clr2}
+#Occupant Vitals: 
+{clr2}N/A{clr2}
+#Diagnostic Results: {clr2}...
+1 Fault Detected...{clr2}
+<display.Fault.ID>
+=cryo_auto_unlock_failed
+[suggestion]=
+<manual_unlock>
+*end*
+"""
+NAME Cryochamber 5.5 dialogue
+
+DLG q
+"""
+ {clr3}Samuel: *yawn* Oh, hey there{clr3}
+...
+{clr3}Samuel: Are we safe then?{clr3}
+...
+{clr3}Samuel: Really?! Is there anyone else left?
+Samuel: I could do a scan for lifeforms on board...{clr3}
+<initiating.scan>
+analyzing...
+<lifeforms.detected>=2
+...
+{clr3}Samuel: Looks like it's just us{clr3}
+...
+{clr3}Samuel: We're over Titan? We better get going then.
+Samuel: I'll meet you there...
+Here take this
+Samuel: I have clearance to the Pod Bay{clr3}
+"""
+NAME Samuel dialogue 1
+
+DLG r
+"""
+{clr3}Samuel: *yawn* Oh, hey there{clr3}
+...
+{clr3}Samuel: Are we safe then?{clr3}
+...
+{clr3}Samuel: Really?! Is there anyone else left?
+Samuel: I could do a scan for lifeforms on board...{clr3}
+<initiating.scan>
+analyzing...
+<lifeforms.detected>=2
+...
+{clr3}Samuel: Looks like it's just us{clr3}
+...
+{clr3}Samuel: We're over Titan? We better get going then.
+Samuel: I'll meet you there...
+Here take this
+Samuel: I have clearance to the Pod Bay{clr3}
+"""
+NAME exit narration 3
+
+DLG s
+"""
+ [Saturnian Space Station]
+Crew Keycard
+Name: Samuel Jameson {printSprite "A"}
+Date of Birth: 07/02/2487
+Date of Enlistment: 27/01/2501
+Occupation: Engineer
+Blood Type: O+
+Clearance: Lvl.3 + Maintenance 
+Personal ID: 27311
+"""
+NAME keycard2 dialogue
+
+DLG t
+"""
+<begin.disembarkment.protocol>
+#Destination.Set=Titan#
+<thrusters.engaged>
+...
+Leaving_SSS
+...
+Thanks for playing.
+{wvy}Created by Max Clarke{wvy}
+"""
+NAME ending 1
+
+DLG u
+"""
+{clr3} Samuel: Thanks for getting me out of there.
+Samuel: Right then...
+Let's go!{clr3}
+"""
+NAME Samuel 2 dialogue
+
+VAR a
+42
+
